@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\demys_universidade.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj",
+        "projectName": "demys_universidade.Domain",
+        "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mabel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mabel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj",
+        "projectName": "demys_universidade.Infrastructure",
+        "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mabel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mabel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EfCore.SchemaCompare": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\demys_universidade.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\demys_universidade.Test.csproj",
+        "projectName": "demys_universidade.Test",
+        "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\demys_universidade.Test.csproj",
+        "packagesPath": "C:\\Users\\Mabel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mabel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj"
+              },
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj"
+              },
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\demys_universidade.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\demys_universidade.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\demys_universidade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\demys_universidade.csproj",
+        "projectName": "demys_universidade",
+        "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\demys_universidade.csproj",
+        "packagesPath": "C:\\Users\\Mabel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mabel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Domain\\demys_universidade.Domain.csproj"
+              },
+              "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Infrastructure\\demys_universidade.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
