@@ -288,11 +288,6 @@ C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_univers
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\demys_universidade.csproj.CoreCompileInputs.cache
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\demys_universidade.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\demys_universidade.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets\msbuild.demys_universidade.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets\msbuild.build.demys_universidade.props
-C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.demys_universidade.props
-C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.demys_universidade.props
-C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\obj\Debug\net6.0\scopedcss\bundle\demys_universidade.styles.css
