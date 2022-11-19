@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.321608040201005" branch-rate="0" lines-covered="384" lines-valid="1194" branches-covered="0" branches-valid="71" complexity="301" version="0" timestamp="1668886674">
+<coverage line-rate="0.357200321802092" branch-rate="0" lines-covered="444" lines-valid="1243" branches-covered="0" branches-valid="71" complexity="307" version="0" timestamp="1668886820">
   <sources>
     <source>C:\Users\Mabel\</source>
   </sources>
   <packages>
-    <package name="demys_universidade" line-rate="0.286163522012579" branch-rate="0" complexity="49">
+    <package name="demys_universidade" line-rate="0.317610062893082" branch-rate="0" complexity="49">
       <classes>
         <class name="demys_universidade.Controllers.AutenticacoesController" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\AutenticacaoController.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
@@ -41,37 +41,37 @@
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="15" branch="false" />
-                <line number="25" hits="15" branch="false" />
-                <line number="26" hits="15" branch="false" />
-                <line number="27" hits="15" branch="false" />
-                <line number="28" hits="15" branch="false" />
+                <line number="24" hits="20" branch="false" />
+                <line number="25" hits="20" branch="false" />
+                <line number="26" hits="20" branch="false" />
+                <line number="27" hits="20" branch="false" />
+                <line number="28" hits="20" branch="false" />
               </lines>
             </method>
             <method name="DeleteAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="52" hits="3" branch="false" />
-                <line number="53" hits="3" branch="false" />
-                <line number="54" hits="3" branch="false" />
-                <line number="55" hits="3" branch="false" />
+                <line number="52" hits="4" branch="false" />
+                <line number="53" hits="4" branch="false" />
+                <line number="54" hits="4" branch="false" />
+                <line number="55" hits="4" branch="false" />
               </lines>
             </method>
             <method name="GetAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="60" hits="3" branch="false" />
-                <line number="61" hits="3" branch="false" />
-                <line number="62" hits="3" branch="false" />
-                <line number="63" hits="3" branch="false" />
-                <line number="64" hits="3" branch="false" />
+                <line number="60" hits="4" branch="false" />
+                <line number="61" hits="4" branch="false" />
+                <line number="62" hits="4" branch="false" />
+                <line number="63" hits="4" branch="false" />
+                <line number="64" hits="4" branch="false" />
               </lines>
             </method>
             <method name="GetByIdAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="69" hits="2" branch="false" />
-                <line number="70" hits="2" branch="false" />
-                <line number="71" hits="2" branch="false" />
-                <line number="72" hits="2" branch="false" />
-                <line number="73" hits="2" branch="false" />
+                <line number="69" hits="3" branch="false" />
+                <line number="70" hits="3" branch="false" />
+                <line number="71" hits="3" branch="false" />
+                <line number="72" hits="3" branch="false" />
+                <line number="73" hits="3" branch="false" />
               </lines>
             </method>
             <method name="PostAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -85,46 +85,46 @@
             </method>
             <method name="PutAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="42" hits="2" branch="false" />
-                <line number="43" hits="2" branch="false" />
-                <line number="44" hits="2" branch="false" />
-                <line number="45" hits="2" branch="false" />
-                <line number="46" hits="2" branch="false" />
-                <line number="47" hits="2" branch="false" />
+                <line number="42" hits="3" branch="false" />
+                <line number="43" hits="3" branch="false" />
+                <line number="44" hits="3" branch="false" />
+                <line number="45" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="47" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="24" hits="15" branch="false" />
-            <line number="25" hits="15" branch="false" />
-            <line number="26" hits="15" branch="false" />
-            <line number="27" hits="15" branch="false" />
-            <line number="28" hits="15" branch="false" />
+            <line number="24" hits="20" branch="false" />
+            <line number="25" hits="20" branch="false" />
+            <line number="26" hits="20" branch="false" />
+            <line number="27" hits="20" branch="false" />
+            <line number="28" hits="20" branch="false" />
             <line number="33" hits="0" branch="false" />
             <line number="34" hits="0" branch="false" />
             <line number="35" hits="0" branch="false" />
             <line number="36" hits="0" branch="false" />
             <line number="37" hits="0" branch="false" />
-            <line number="42" hits="2" branch="false" />
-            <line number="43" hits="2" branch="false" />
-            <line number="44" hits="2" branch="false" />
-            <line number="45" hits="2" branch="false" />
-            <line number="46" hits="2" branch="false" />
-            <line number="47" hits="2" branch="false" />
-            <line number="52" hits="3" branch="false" />
-            <line number="53" hits="3" branch="false" />
-            <line number="54" hits="3" branch="false" />
-            <line number="55" hits="3" branch="false" />
-            <line number="60" hits="3" branch="false" />
-            <line number="61" hits="3" branch="false" />
-            <line number="62" hits="3" branch="false" />
-            <line number="63" hits="3" branch="false" />
-            <line number="64" hits="3" branch="false" />
-            <line number="69" hits="2" branch="false" />
-            <line number="70" hits="2" branch="false" />
-            <line number="71" hits="2" branch="false" />
-            <line number="72" hits="2" branch="false" />
-            <line number="73" hits="2" branch="false" />
+            <line number="42" hits="3" branch="false" />
+            <line number="43" hits="3" branch="false" />
+            <line number="44" hits="3" branch="false" />
+            <line number="45" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="52" hits="4" branch="false" />
+            <line number="53" hits="4" branch="false" />
+            <line number="54" hits="4" branch="false" />
+            <line number="55" hits="4" branch="false" />
+            <line number="60" hits="4" branch="false" />
+            <line number="61" hits="4" branch="false" />
+            <line number="62" hits="4" branch="false" />
+            <line number="63" hits="4" branch="false" />
+            <line number="64" hits="4" branch="false" />
+            <line number="69" hits="3" branch="false" />
+            <line number="70" hits="3" branch="false" />
+            <line number="71" hits="3" branch="false" />
+            <line number="72" hits="3" branch="false" />
+            <line number="73" hits="3" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.BrasilCepController" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\BrasilCepController.cs" line-rate="0" branch-rate="1" complexity="3">
@@ -295,38 +295,38 @@
             <line number="64" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="demys_universidade.Controllers.PerfilController" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\PerfilController.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="demys_universidade.Controllers.PerfilController" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\PerfilController.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="0" branch="false" />
-                <line number="25" hits="0" branch="false" />
-                <line number="26" hits="0" branch="false" />
-                <line number="27" hits="0" branch="false" />
-                <line number="28" hits="0" branch="false" />
+                <line number="24" hits="5" branch="false" />
+                <line number="25" hits="5" branch="false" />
+                <line number="26" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+                <line number="28" hits="5" branch="false" />
               </lines>
             </method>
-            <method name="PostAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="PostAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="0" branch="false" />
-                <line number="38" hits="0" branch="false" />
-                <line number="39" hits="0" branch="false" />
-                <line number="40" hits="0" branch="false" />
-                <line number="41" hits="0" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="24" hits="0" branch="false" />
-            <line number="25" hits="0" branch="false" />
-            <line number="26" hits="0" branch="false" />
-            <line number="27" hits="0" branch="false" />
-            <line number="28" hits="0" branch="false" />
-            <line number="37" hits="0" branch="false" />
-            <line number="38" hits="0" branch="false" />
-            <line number="39" hits="0" branch="false" />
-            <line number="40" hits="0" branch="false" />
-            <line number="41" hits="0" branch="false" />
+            <line number="24" hits="5" branch="false" />
+            <line number="25" hits="5" branch="false" />
+            <line number="26" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="28" hits="5" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.UsuarioController" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\UsuarioController.cs" line-rate="0.689655172413793" branch-rate="1" complexity="6">
@@ -597,46 +597,46 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="16" branch="false" />
-                <line number="11" hits="16" branch="false" />
-                <line number="14" hits="16" branch="false" />
-                <line number="15" hits="16" branch="false" />
-                <line number="16" hits="16" branch="false" />
-                <line number="17" hits="16" branch="false" />
-                <line number="18" hits="16" branch="false" />
-                <line number="25" hits="16" branch="false" />
-                <line number="26" hits="16" branch="false" />
-                <line number="27" hits="16" branch="false" />
-                <line number="28" hits="16" branch="false" />
-                <line number="29" hits="16" branch="false" />
-                <line number="35" hits="16" branch="false" />
-                <line number="36" hits="16" branch="false" />
-                <line number="37" hits="16" branch="false" />
-                <line number="38" hits="16" branch="false" />
-                <line number="39" hits="32" branch="false" />
-                <line number="43" hits="16" branch="false" />
+                <line number="10" hits="21" branch="false" />
+                <line number="11" hits="21" branch="false" />
+                <line number="14" hits="21" branch="false" />
+                <line number="15" hits="21" branch="false" />
+                <line number="16" hits="21" branch="false" />
+                <line number="17" hits="21" branch="false" />
+                <line number="18" hits="21" branch="false" />
+                <line number="25" hits="21" branch="false" />
+                <line number="26" hits="21" branch="false" />
+                <line number="27" hits="21" branch="false" />
+                <line number="28" hits="21" branch="false" />
+                <line number="29" hits="21" branch="false" />
+                <line number="35" hits="21" branch="false" />
+                <line number="36" hits="21" branch="false" />
+                <line number="37" hits="21" branch="false" />
+                <line number="38" hits="21" branch="false" />
+                <line number="39" hits="42" branch="false" />
+                <line number="43" hits="21" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="16" branch="false" />
-            <line number="11" hits="16" branch="false" />
-            <line number="14" hits="16" branch="false" />
-            <line number="15" hits="16" branch="false" />
-            <line number="16" hits="16" branch="false" />
-            <line number="17" hits="16" branch="false" />
-            <line number="18" hits="16" branch="false" />
-            <line number="25" hits="16" branch="false" />
-            <line number="26" hits="16" branch="false" />
-            <line number="27" hits="16" branch="false" />
-            <line number="28" hits="16" branch="false" />
-            <line number="29" hits="16" branch="false" />
-            <line number="35" hits="16" branch="false" />
-            <line number="36" hits="16" branch="false" />
-            <line number="37" hits="16" branch="false" />
-            <line number="38" hits="16" branch="false" />
-            <line number="39" hits="32" branch="false" />
-            <line number="43" hits="16" branch="false" />
+            <line number="10" hits="21" branch="false" />
+            <line number="11" hits="21" branch="false" />
+            <line number="14" hits="21" branch="false" />
+            <line number="15" hits="21" branch="false" />
+            <line number="16" hits="21" branch="false" />
+            <line number="17" hits="21" branch="false" />
+            <line number="18" hits="21" branch="false" />
+            <line number="25" hits="21" branch="false" />
+            <line number="26" hits="21" branch="false" />
+            <line number="27" hits="21" branch="false" />
+            <line number="28" hits="21" branch="false" />
+            <line number="29" hits="21" branch="false" />
+            <line number="35" hits="21" branch="false" />
+            <line number="36" hits="21" branch="false" />
+            <line number="37" hits="21" branch="false" />
+            <line number="38" hits="21" branch="false" />
+            <line number="39" hits="42" branch="false" />
+            <line number="43" hits="21" branch="false" />
           </lines>
         </class>
         <class name="Program" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Program.cs" line-rate="0" branch-rate="0" complexity="2">
@@ -849,7 +849,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Domain" line-rate="0.282051282051282" branch-rate="0" complexity="146">
+    <package name="demys_universidade.Domain" line-rate="0.285714285714286" branch-rate="0" complexity="146">
       <classes>
         <class name="demys_universidade.Domain.Contracts.Request.AutenticacaoRequest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\AutenticacaoRequest.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
@@ -965,16 +965,16 @@
             <line number="23" hits="8" branch="false" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Contracts.Request.PerfilRequest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\PerfilRequest.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Domain.Contracts.Request.PerfilRequest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\PerfilRequest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="get_Nome" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="false" />
+                <line number="11" hits="4" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="0" branch="false" />
+            <line number="11" hits="4" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Request.UsuarioDataNascimentoRequest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\UsuarioDataNascimentoRequest.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -1059,42 +1059,42 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="27" branch="false" />
+                <line number="11" hits="32" branch="false" />
               </lines>
             </method>
             <method name="get_Ativo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="24" branch="false" />
+                <line number="12" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_UsuarioInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="24" branch="false" />
+                <line number="13" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_DataInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="24" branch="false" />
+                <line number="14" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_UsuarioAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="24" branch="false" />
+                <line number="15" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_DataAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="24" branch="false" />
+                <line number="16" hits="28" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="27" branch="false" />
-            <line number="12" hits="24" branch="false" />
-            <line number="13" hits="24" branch="false" />
-            <line number="14" hits="24" branch="false" />
-            <line number="15" hits="24" branch="false" />
-            <line number="16" hits="24" branch="false" />
+            <line number="11" hits="32" branch="false" />
+            <line number="12" hits="28" branch="false" />
+            <line number="13" hits="28" branch="false" />
+            <line number="14" hits="28" branch="false" />
+            <line number="15" hits="28" branch="false" />
+            <line number="16" hits="28" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Response.CursoResponse" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\CursoResponse.cs" line-rate="1" branch-rate="1" complexity="3">
@@ -1203,12 +1203,12 @@
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="4" branch="false" />
+                <line number="11" hits="8" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="4" branch="false" />
+            <line number="11" hits="8" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Response.UsuarioResponse" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\UsuarioResponse.cs" line-rate="1" branch-rate="1" complexity="6">
@@ -1257,54 +1257,54 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="116" branch="false" />
+                <line number="16" hits="188" branch="false" />
               </lines>
             </method>
             <method name="get_Ativo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="194" branch="false" />
+                <line number="17" hits="328" branch="false" />
               </lines>
             </method>
             <method name="get_UsuarioInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="104" branch="false" />
+                <line number="18" hits="172" branch="false" />
               </lines>
             </method>
             <method name="get_DataInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="104" branch="false" />
+                <line number="19" hits="172" branch="false" />
               </lines>
             </method>
             <method name="get_UsuarioAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="104" branch="false" />
+                <line number="21" hits="172" branch="false" />
               </lines>
             </method>
             <method name="get_DataAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="104" branch="false" />
+                <line number="22" hits="172" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="90" branch="false" />
-                <line number="12" hits="90" branch="false" />
-                <line number="13" hits="90" branch="false" />
-                <line number="14" hits="90" branch="false" />
+                <line number="11" hits="156" branch="false" />
+                <line number="12" hits="156" branch="false" />
+                <line number="13" hits="156" branch="false" />
+                <line number="14" hits="156" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="90" branch="false" />
-            <line number="12" hits="90" branch="false" />
-            <line number="13" hits="90" branch="false" />
-            <line number="14" hits="90" branch="false" />
-            <line number="16" hits="116" branch="false" />
-            <line number="17" hits="194" branch="false" />
-            <line number="18" hits="104" branch="false" />
-            <line number="19" hits="104" branch="false" />
-            <line number="21" hits="104" branch="false" />
-            <line number="22" hits="104" branch="false" />
+            <line number="11" hits="156" branch="false" />
+            <line number="12" hits="156" branch="false" />
+            <line number="13" hits="156" branch="false" />
+            <line number="14" hits="156" branch="false" />
+            <line number="16" hits="188" branch="false" />
+            <line number="17" hits="328" branch="false" />
+            <line number="18" hits="172" branch="false" />
+            <line number="19" hits="172" branch="false" />
+            <line number="21" hits="172" branch="false" />
+            <line number="22" hits="172" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.BrasilCep" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\BrasilCep.cs" line-rate="0" branch-rate="1" complexity="6">
@@ -1353,22 +1353,22 @@
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="14" branch="false" />
+                <line number="11" hits="26" branch="false" />
               </lines>
             </method>
             <method name="get_Turno" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="14" branch="false" />
+                <line number="12" hits="26" branch="false" />
               </lines>
             </method>
             <method name="get_DepartamentoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="14" branch="false" />
+                <line number="15" hits="26" branch="false" />
               </lines>
             </method>
             <method name="get_Departamento" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="8" branch="false" />
+                <line number="20" hits="20" branch="false" />
               </lines>
             </method>
             <method name="get_Usuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1378,10 +1378,10 @@
             </method>
           </methods>
           <lines>
-            <line number="11" hits="14" branch="false" />
-            <line number="12" hits="14" branch="false" />
-            <line number="15" hits="14" branch="false" />
-            <line number="20" hits="8" branch="false" />
+            <line number="11" hits="26" branch="false" />
+            <line number="12" hits="26" branch="false" />
+            <line number="15" hits="26" branch="false" />
+            <line number="20" hits="20" branch="false" />
             <line number="21" hits="5" branch="false" />
           </lines>
         </class>
@@ -1389,124 +1389,124 @@
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="18" branch="false" />
+                <line number="11" hits="30" branch="false" />
               </lines>
             </method>
             <method name="get_EnderecoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="12" branch="false" />
+                <line number="14" hits="24" branch="false" />
               </lines>
             </method>
             <method name="get_Endereco" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="18" branch="false" />
+                <line number="18" hits="30" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="18" branch="false" />
-            <line number="14" hits="12" branch="false" />
-            <line number="18" hits="18" branch="false" />
+            <line number="11" hits="30" branch="false" />
+            <line number="14" hits="24" branch="false" />
+            <line number="18" hits="30" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Endereco" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Endereco.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_CEP" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="40" branch="false" />
+                <line number="5" hits="64" branch="false" />
               </lines>
             </method>
             <method name="get_Rua" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="40" branch="false" />
+                <line number="6" hits="64" branch="false" />
               </lines>
             </method>
             <method name="get_Cidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="40" branch="false" />
+                <line number="7" hits="64" branch="false" />
               </lines>
             </method>
             <method name="get_Estado" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="40" branch="false" />
+                <line number="8" hits="64" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="40" branch="false" />
-            <line number="6" hits="40" branch="false" />
-            <line number="7" hits="40" branch="false" />
-            <line number="8" hits="40" branch="false" />
+            <line number="5" hits="64" branch="false" />
+            <line number="6" hits="64" branch="false" />
+            <line number="7" hits="64" branch="false" />
+            <line number="8" hits="64" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Perfil" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Perfil.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="20" branch="false" />
+                <line number="11" hits="30" branch="false" />
               </lines>
             </method>
             <method name="get_Usuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="1" branch="false" />
+                <line number="12" hits="5" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="20" branch="false" />
-            <line number="12" hits="1" branch="false" />
+            <line number="11" hits="30" branch="false" />
+            <line number="12" hits="5" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Usuario" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Usuario.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="22" branch="false" />
+                <line number="5" hits="34" branch="false" />
               </lines>
             </method>
             <method name="get_Senha" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="18" branch="false" />
+                <line number="6" hits="30" branch="false" />
               </lines>
             </method>
             <method name="get_CPF" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="22" branch="false" />
+                <line number="7" hits="34" branch="false" />
               </lines>
             </method>
             <method name="get_DataNascimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="22" branch="false" />
+                <line number="8" hits="34" branch="false" />
               </lines>
             </method>
             <method name="get_DataInicio" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="16" branch="false" />
+                <line number="9" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_CursoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="22" branch="false" />
+                <line number="12" hits="34" branch="false" />
               </lines>
             </method>
             <method name="get_EnderecoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="16" branch="false" />
+                <line number="13" hits="28" branch="false" />
               </lines>
             </method>
             <method name="get_PerfilId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="18" branch="false" />
+                <line number="14" hits="30" branch="false" />
               </lines>
             </method>
             <method name="get_Curso" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="4" branch="false" />
+                <line number="19" hits="16" branch="false" />
               </lines>
             </method>
             <method name="get_Endereco" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="22" branch="false" />
+                <line number="20" hits="34" branch="false" />
               </lines>
             </method>
             <method name="get_Perfil" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1516,16 +1516,16 @@
             </method>
           </methods>
           <lines>
-            <line number="5" hits="22" branch="false" />
-            <line number="6" hits="18" branch="false" />
-            <line number="7" hits="22" branch="false" />
-            <line number="8" hits="22" branch="false" />
-            <line number="9" hits="16" branch="false" />
-            <line number="12" hits="22" branch="false" />
-            <line number="13" hits="16" branch="false" />
-            <line number="14" hits="18" branch="false" />
-            <line number="19" hits="4" branch="false" />
-            <line number="20" hits="22" branch="false" />
+            <line number="5" hits="34" branch="false" />
+            <line number="6" hits="30" branch="false" />
+            <line number="7" hits="34" branch="false" />
+            <line number="8" hits="34" branch="false" />
+            <line number="9" hits="28" branch="false" />
+            <line number="12" hits="34" branch="false" />
+            <line number="13" hits="28" branch="false" />
+            <line number="14" hits="30" branch="false" />
+            <line number="19" hits="16" branch="false" />
+            <line number="20" hits="34" branch="false" />
             <line number="21" hits="20" branch="false" />
           </lines>
         </class>
@@ -2665,7 +2665,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Test" line-rate="0.487584650112867" branch-rate="1" complexity="55">
+    <package name="demys_universidade.Test" line-rate="0.538617886178862" branch-rate="1" complexity="61">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\Mabel\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -2765,46 +2765,46 @@
           <methods>
             <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="16" branch="false" />
-                <line number="9" hits="16" branch="false" />
-                <line number="10" hits="16" branch="false" />
-                <line number="11" hits="16" branch="false" />
-                <line number="12" hits="16" branch="false" />
-                <line number="13" hits="16" branch="false" />
+                <line number="8" hits="21" branch="false" />
+                <line number="9" hits="21" branch="false" />
+                <line number="10" hits="21" branch="false" />
+                <line number="11" hits="21" branch="false" />
+                <line number="12" hits="21" branch="false" />
+                <line number="13" hits="21" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="16" branch="false" />
-            <line number="9" hits="16" branch="false" />
-            <line number="10" hits="16" branch="false" />
-            <line number="11" hits="16" branch="false" />
-            <line number="12" hits="16" branch="false" />
-            <line number="13" hits="16" branch="false" />
+            <line number="8" hits="21" branch="false" />
+            <line number="9" hits="21" branch="false" />
+            <line number="10" hits="21" branch="false" />
+            <line number="11" hits="21" branch="false" />
+            <line number="12" hits="21" branch="false" />
+            <line number="13" hits="21" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Configs.MapConfig" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Configs\MapConfig.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="16" branch="false" />
-                <line number="14" hits="16" branch="false" />
-                <line number="15" hits="16" branch="false" />
-                <line number="16" hits="16" branch="false" />
-                <line number="17" hits="32" branch="false" />
-                <line number="19" hits="16" branch="false" />
-                <line number="20" hits="16" branch="false" />
+                <line number="13" hits="21" branch="false" />
+                <line number="14" hits="21" branch="false" />
+                <line number="15" hits="21" branch="false" />
+                <line number="16" hits="21" branch="false" />
+                <line number="17" hits="42" branch="false" />
+                <line number="19" hits="21" branch="false" />
+                <line number="20" hits="21" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="16" branch="false" />
-            <line number="14" hits="16" branch="false" />
-            <line number="15" hits="16" branch="false" />
-            <line number="16" hits="16" branch="false" />
-            <line number="17" hits="32" branch="false" />
-            <line number="19" hits="16" branch="false" />
-            <line number="20" hits="16" branch="false" />
+            <line number="13" hits="21" branch="false" />
+            <line number="14" hits="21" branch="false" />
+            <line number="15" hits="21" branch="false" />
+            <line number="16" hits="21" branch="false" />
+            <line number="17" hits="42" branch="false" />
+            <line number="19" hits="21" branch="false" />
+            <line number="20" hits="21" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Fakers.ApiCepFakers" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Fakers\ApiCepFakers.cs" line-rate="0" branch-rate="1" complexity="2">
@@ -3745,6 +3745,134 @@
             <line number="101" hits="1" branch="false" />
             <line number="102" hits="1" branch="false" />
             <line number="103" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.PerfisControllerTest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\PerfisControllerFaker.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="5" branch="false" />
+                <line number="23" hits="5" branch="false" />
+                <line number="24" hits="5" branch="false" />
+                <line number="25" hits="5" branch="false" />
+                <line number="26" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="Delete" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetById" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Post" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Put" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="5" branch="false" />
+            <line number="23" hits="5" branch="false" />
+            <line number="24" hits="5" branch="false" />
+            <line number="25" hits="5" branch="false" />
+            <line number="26" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest" filename="C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioController.cs" line-rate="1" branch-rate="1" complexity="6">
