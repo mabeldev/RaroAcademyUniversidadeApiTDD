@@ -15,18 +15,17 @@ namespace demys_universidade.Filters
 
             if (context.Exception is InformacaoException)
             {
-                var InformacaoException = (InformacaoException)context.Exception;
+                var informacaoException = (InformacaoException)context.Exception;
 
-                response.Codigo = InformacaoException.Codigo;
-                response.Mensagens = InformacaoException.Mensagens;
-                response.Detalhe = context.Exception?.InnerException?.Message;
+                response.Codigo = informacaoException.Codigo;
+                response.Mensagens = informacaoException.Mensagens;
+                response.Detalhe = $"{context.Exception.Message} | {context.Exception.InnerException?.Message}";
             }
             else
             {
                 response.Codigo = StatusException.Erro;
-                response.Mensagens.Add("Erro Inesperado");
-                response.Mensagens = new List<string> { "Erro Inesperado"};
-                response.Detalhe = context.Exception?.InnerException?.Message;
+                response.Mensagens = new List<string> { "Erro inesperdado" };
+                response.Detalhe = $"{context.Exception?.Message} | {context.Exception?.InnerException?.Message}";
             }
 
             context.Result = new ObjectResult(response)

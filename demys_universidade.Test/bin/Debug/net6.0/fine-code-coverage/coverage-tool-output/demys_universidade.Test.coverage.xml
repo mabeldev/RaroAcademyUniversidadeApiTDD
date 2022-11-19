@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.35719999999999996" branch-rate="0" version="1.9" timestamp="1668897619" lines-covered="444" lines-valid="1243" branches-covered="0" branches-valid="71">
+<coverage line-rate="0.4365" branch-rate="0.1971" version="1.9" timestamp="1668899289" lines-covered="581" lines-valid="1331" branches-covered="14" branches-valid="71">
   <sources>
     <source>C:\Users\Mabel\</source>
   </sources>
   <packages>
-    <package name="demys_universidade" line-rate="0.3176" branch-rate="0" complexity="50">
+    <package name="demys_universidade" line-rate="0.3848" branch-rate="0.5" complexity="50">
       <classes>
         <class name="Program" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Program.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
@@ -362,86 +362,84 @@
             <line number="51" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Filters.ExceptionFilter" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Filters\ExceptionFilter.cs" line-rate="0" branch-rate="0" complexity="10">
+        <class name="demys_universidade.Filters.ExceptionFilter" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Filters\ExceptionFilter.cs" line-rate="1" branch-rate="1" complexity="10">
           <methods>
-            <method name="OnExceptionAsync" signature="(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)" line-rate="0" branch-rate="0" complexity="10">
+            <method name="OnExceptionAsync" signature="(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)" line-rate="1" branch-rate="1" complexity="10">
               <lines>
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
-                <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="16" hits="6" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="23" type="jump" coverage="0%" />
+                    <condition number="23" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="72" type="jump" coverage="0%" />
-                    <condition number="84" type="jump" coverage="0%" />
+                    <condition number="93" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="23" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="23" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="3" branch="True" condition-coverage="100% (6/6)">
                   <conditions>
-                    <condition number="162" type="jump" coverage="0%" />
-                    <condition number="174" type="jump" coverage="0%" />
+                    <condition number="159" type="jump" coverage="100%" />
+                    <condition number="182" type="jump" coverage="100%" />
+                    <condition number="194" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="30" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="31" hits="6" branch="False" />
+                <line number="32" hits="6" branch="False" />
+                <line number="33" hits="6" branch="False" />
+                <line number="34" hits="6" branch="False" />
+                <line number="36" hits="6" branch="False" />
+                <line number="37" hits="6" branch="False" />
+                <line number="38" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="16" hits="6" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="23" type="jump" coverage="0%" />
+                <condition number="23" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="72" type="jump" coverage="0%" />
-                <condition number="84" type="jump" coverage="0%" />
+                <condition number="93" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="23" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="23" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="3" branch="True" condition-coverage="100% (6/6)">
               <conditions>
-                <condition number="162" type="jump" coverage="0%" />
-                <condition number="174" type="jump" coverage="0%" />
+                <condition number="159" type="jump" coverage="100%" />
+                <condition number="182" type="jump" coverage="100%" />
+                <condition number="194" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="30" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="31" hits="6" branch="False" />
+            <line number="32" hits="6" branch="False" />
+            <line number="33" hits="6" branch="False" />
+            <line number="34" hits="6" branch="False" />
+            <line number="36" hits="6" branch="False" />
+            <line number="37" hits="6" branch="False" />
+            <line number="38" hits="6" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Filters.ValidationFilter/&lt;&gt;c" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Filters\ValidationFilter.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -1052,7 +1050,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Domain" line-rate="0.2857" branch-rate="0" complexity="146">
+    <package name="demys_universidade.Domain" line-rate="0.3846" branch-rate="0.1142" complexity="146">
       <classes>
         <class name="demys_universidade.Domain.Utils.ClaimUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\ClaimUtil.cs" line-rate="0" branch-rate="0" complexity="8">
           <methods>
@@ -1096,57 +1094,57 @@
             <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Utils.EnumUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\EnumUtil.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="demys_universidade.Domain.Utils.EnumUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\EnumUtil.cs" line-rate="1" branch-rate="0.5" complexity="4">
           <methods>
-            <method name="Description" signature="(System.Enum)" line-rate="0" branch-rate="0" complexity="4">
+            <method name="Description" signature="(System.Enum)" line-rate="1" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="True" condition-coverage="50% (2/4)">
                   <conditions>
-                    <condition number="29" type="jump" coverage="0%" />
-                    <condition number="41" type="jump" coverage="0%" />
+                    <condition number="29" type="jump" coverage="50%" />
+                    <condition number="41" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="True" condition-coverage="50% (2/4)">
               <conditions>
-                <condition number="29" type="jump" coverage="0%" />
-                <condition number="41" type="jump" coverage="0%" />
+                <condition number="29" type="jump" coverage="50%" />
+                <condition number="41" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Utils.TextUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\TextUtil.cs" line-rate="0" branch-rate="0" complexity="9">
+        <class name="demys_universidade.Domain.Utils.TextUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\TextUtil.cs" line-rate="0.35710000000000003" branch-rate="0.22219999999999998" complexity="9">
           <methods>
-            <method name="GetStatusCode" signature="(demys_universidade.Domain.Enums.StatusException)" line-rate="0" branch-rate="0" complexity="7">
+            <method name="GetStatusCode" signature="(demys_universidade.Domain.Enums.StatusException)" line-rate="0.5555" branch-rate="0.2857" complexity="7">
               <lines>
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="True" condition-coverage="0% (0/7)">
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="True" condition-coverage="28.57% (2/7)">
                   <conditions>
-                    <condition number="8" type="switch" coverage="0%" />
+                    <condition number="8" type="switch" coverage="28.57%" />
                   </conditions>
                 </line>
                 <line number="18" hits="0" branch="False" />
                 <line number="20" hits="0" branch="False" />
                 <line number="22" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
+                <line number="24" hits="3" branch="False" />
                 <line number="26" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="30" hits="6" branch="False" />
               </lines>
             </method>
             <method name="ToInt" signature="(System.String)" line-rate="0" branch-rate="0" complexity="2">
@@ -1164,19 +1162,19 @@
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="True" condition-coverage="0% (0/7)">
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="True" condition-coverage="28.57% (2/7)">
               <conditions>
-                <condition number="8" type="switch" coverage="0%" />
+                <condition number="8" type="switch" coverage="28.57%" />
               </conditions>
             </line>
             <line number="18" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
+            <line number="24" hits="3" branch="False" />
             <line number="26" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="6" branch="False" />
             <line number="33" hits="0" branch="False" />
             <line number="35" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
@@ -1778,50 +1776,50 @@
             <line number="107" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Exceptions.InformacaoException" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Exceptions\InformacaoException.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="demys_universidade.Domain.Exceptions.InformacaoException" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Exceptions\InformacaoException.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_Codigo" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Codigo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="0" branch="False" />
+                <line number="28" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Mensagens" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Mensagens" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="30" hits="0" branch="False" />
+                <line number="30" hits="3" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(demys_universidade.Domain.Enums.StatusException,System.Collections.Generic.List`1&lt;System.String&gt;,System.Exception)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(demys_universidade.Domain.Enums.StatusException,System.Collections.Generic.List`1&lt;System.String&gt;,System.Exception)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="False" />
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(demys_universidade.Domain.Enums.StatusException,System.String,System.Exception)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(demys_universidade.Domain.Enums.StatusException,System.String,System.Exception)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
+                <line number="21" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="28" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="21" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.BaseEntity" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\BaseEntity.cs" line-rate="1" branch-rate="1" complexity="7">
@@ -2232,11 +2230,11 @@
             <line number="18" hits="8" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Contracts.Response.InformacaoResponse" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\InformacaoResponse.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="demys_universidade.Domain.Contracts.Response.InformacaoResponse" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\InformacaoResponse.cs" line-rate="0.75" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_Codigo" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Codigo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
+                <line number="8" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_Descricao" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -2244,22 +2242,22 @@
                 <line number="9" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_Mensagens" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Mensagens" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="False" />
+                <line number="10" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_Detalhe" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Detalhe" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="False" />
+                <line number="11" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="0" branch="False" />
+            <line number="8" hits="12" branch="False" />
             <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Response.PerfilResponse" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\PerfilResponse.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -3286,7 +3284,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Test" line-rate="0.5386" branch-rate="1" complexity="61">
+    <package name="demys_universidade.Test" line-rate="0.6092" branch-rate="1" complexity="74">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -3298,6 +3296,314 @@
           </methods>
           <lines>
             <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="6" branch="False" />
+                <line number="22" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="24" hits="6" branch="False" />
+                <line number="25" hits="6" branch="False" />
+                <line number="26" hits="6" branch="False" />
+                <line number="27" hits="6" branch="False" />
+                <line number="28" hits="6" branch="False" />
+                <line number="29" hits="6" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="6" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="26" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
+            <line number="28" hits="6" branch="False" />
+            <line number="29" hits="6" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass4_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionInformacaoException&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="43" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass5_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionIsException&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass6_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionFilterInformacaoExceptionInnerException&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="77" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="77" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass7_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionFilterInnerException&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="97" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="97" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass8_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionFilterInformacaoExceptionNull&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="117" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;&gt;c__DisplayClass9_0" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;OnExceptionFilterNull&gt;b__0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="137" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="137" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionFilterInformacaoExceptionInnerException&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionFilterInformacaoExceptionNull&gt;d__8" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionFilterInnerException&gt;d__7" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionFilterNull&gt;d__9" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionInformacaoException&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Filters.ExceptionFilterTest/&lt;OnExceptionIsException&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Filters\ExceptionFilterTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Sources.API.Controller.AutenticacoesControllerTest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\AutenticacaoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -4720,22 +5026,22 @@
           <methods>
             <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="21" branch="False" />
-                <line number="9" hits="21" branch="False" />
-                <line number="10" hits="21" branch="False" />
-                <line number="11" hits="21" branch="False" />
-                <line number="12" hits="21" branch="False" />
-                <line number="13" hits="21" branch="False" />
+                <line number="8" hits="27" branch="False" />
+                <line number="9" hits="27" branch="False" />
+                <line number="10" hits="27" branch="False" />
+                <line number="11" hits="27" branch="False" />
+                <line number="12" hits="27" branch="False" />
+                <line number="13" hits="27" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="21" branch="False" />
-            <line number="9" hits="21" branch="False" />
-            <line number="10" hits="21" branch="False" />
-            <line number="11" hits="21" branch="False" />
-            <line number="12" hits="21" branch="False" />
-            <line number="13" hits="21" branch="False" />
+            <line number="8" hits="27" branch="False" />
+            <line number="9" hits="27" branch="False" />
+            <line number="10" hits="27" branch="False" />
+            <line number="11" hits="27" branch="False" />
+            <line number="12" hits="27" branch="False" />
+            <line number="13" hits="27" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Configs.MapConfig" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Configs\MapConfig.cs" line-rate="1" branch-rate="1" complexity="1">
