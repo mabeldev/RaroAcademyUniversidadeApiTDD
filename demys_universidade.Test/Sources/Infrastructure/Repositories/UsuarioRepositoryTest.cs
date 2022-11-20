@@ -58,14 +58,9 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new UsuarioRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.AddAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.AddAsync(entity));
+            Assert.Null(exception);
+
         }
 
         [Fact(DisplayName = "Edita Usuario Existente")]
@@ -77,15 +72,12 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new UsuarioRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.EditAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.EditAsync(entity));
+            Assert.Null(exception);
+
         }
+
+
 
         [Fact(DisplayName = "Remove Usuario Existente")]
         public async Task Delete()
@@ -96,14 +88,11 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new UsuarioRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.RemoveAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.RemoveAsync(entity));
+            Assert.Null(exception);
+
+
         }
+
     }
 }

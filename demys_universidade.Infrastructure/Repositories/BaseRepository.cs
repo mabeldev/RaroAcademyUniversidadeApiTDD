@@ -19,11 +19,6 @@ namespace demys_universidade.Infrastructure.Repositories
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public async Task<T> FindAsync(decimal id)
-        {
-            return await _context.Set<T>().FindAsync(id);
-        }
-
         public async Task<T> FindAsync(Expression<Func<T, bool>> expression)
         {
             return await _context.Set<T>().FirstOrDefaultAsync(expression);
@@ -34,26 +29,6 @@ namespace demys_universidade.Infrastructure.Repositories
             return await _context.Set<T>().AsNoTracking().FirstOrDefaultAsync(expression);
         }
 
-        public async Task<int> CountAsync()
-        {
-            return await _context.Set<T>().CountAsync();
-        }
-
-        public async Task<int> CountAsync(Expression<Func<T, bool>> expression)
-        {
-            return await _context.Set<T>().Where(expression).CountAsync();
-        }
-
-        public async Task<int> CountAsync<K>(Expression<Func<T, IEnumerable<K>>> selectExpression)
-        {
-            return await _context.Set<T>().Select(selectExpression).Distinct().CountAsync();
-        }
-
-        public async Task<int> CountAsync<K>(Expression<Func<T, bool>> expression, Expression<Func<T, IEnumerable<K>>> selectExpression)
-        {
-            return await _context.Set<T>().Where(expression).Select(selectExpression).Distinct().CountAsync();
-        }
-
         public async Task<List<T>> ListAsync()
         {
             return await _context.Set<T>().ToListAsync();
@@ -62,16 +37,6 @@ namespace demys_universidade.Infrastructure.Repositories
         public async Task<List<T>> ListAsync(Expression<Func<T, bool>> expression)
         {
             return await _context.Set<T>().Where(expression).ToListAsync();
-        }
-
-        public async Task<List<T>> ListPaginationAsync<K>(Expression<Func<T, K>> sortExpression, int pagina, int quantidade)
-        {
-            return await _context.Set<T>().OrderBy(sortExpression).Skip(quantidade * (pagina - 1)).Take(quantidade).ToListAsync();
-        }
-
-        public async Task<List<T>> ListPaginationAsync<K>(Expression<Func<T, bool>> expression, Expression<Func<T, K>> sortExpression, int pagina, int quantidade)
-        {
-            return await _context.Set<T>().Where(expression).OrderBy(sortExpression).Skip(quantidade * (pagina - 1)).Take(quantidade).ToListAsync();
         }
 
         public async Task AddAsync(T item)
@@ -91,6 +56,5 @@ namespace demys_universidade.Infrastructure.Repositories
             _context.Set<T>().Update(item);
             await _context.SaveChangesAsync();
         }
-
     }
 }

@@ -58,15 +58,11 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new CursoRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.AddAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.AddAsync(entity));
+            Assert.Null(exception);
+
         }
+
 
         [Fact(DisplayName = "Edita Curso Existente")]
         public async Task Put()
@@ -77,14 +73,9 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new CursoRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.EditAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.EditAsync(entity));
+            Assert.Null(exception);
+
         }
 
         [Fact(DisplayName = "Remove Curso Existente")]
@@ -96,14 +87,11 @@ namespace demys_universidade.Test.Sources.Infrastructure.Repositories
 
             var repository = new CursoRepository(_mockContext.Object);
 
-            try
-            {
-                await repository.RemoveAsync(entity);
-            }
-            catch (Exception)
-            {
-                Assert.True(false);
-            }
+            var exception = await Record.ExceptionAsync(async () => await repository.RemoveAsync(entity));
+            Assert.Null(exception);
+
+
         }
+
     }
 }

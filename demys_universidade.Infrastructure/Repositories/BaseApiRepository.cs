@@ -25,61 +25,6 @@ namespace demys_universidade.Infrastructure.Repositories
             return await ReadAsync<T>(response);
         }
 
-        public async Task<string> GetAsync(string uri)
-        {
-            var response = await _httpClient.GetAsync(uri);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-
-            return await response.Content.ReadAsStringAsync();
-        }
-
-        public async Task<T> PostAsJsonAsync<T>(string uri, object objeto)
-        {
-            var response = await _httpClient.PostAsJsonAsync(uri, objeto);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-
-            return await ReadAsync<T>(response);
-        }
-
-        public async Task<T> PostAsContentAsync<T>(string uri, HttpContent httpContent)
-        {
-            var response = await _httpClient.PostAsync(uri, httpContent);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-
-            return await ReadAsync<T>(response);
-        }
-
-        public async Task PostAsJsonNoContentAsync(string uri, object objeto)
-        {
-            var response = await _httpClient.PostAsJsonAsync(uri, objeto);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-        }
-
-        public async Task PatchAsJsonNoContentAsync(string uri, object objeto)
-        {
-            var content = new ObjectContent<object>(objeto, new JsonMediaTypeFormatter());
-            var response = await _httpClient.PatchAsync(uri, content);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-        }
-
-        public async Task DeleteAsync(string uri)
-        {
-            var response = await _httpClient.DeleteAsync(uri);
-
-            if (!response.IsSuccessStatusCode)
-                await TratarErroAsync(response);
-        }
-
         private async Task TratarErroAsync(HttpResponseMessage response)
         {
             var body = await ReadAsync<string>(response);
