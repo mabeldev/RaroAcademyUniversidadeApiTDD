@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using Bogus.Extensions.Brazil;
 using demys_universidade.Domain.Contracts.Request;
 using demys_universidade.Domain.Contracts.Response;
 using demys_universidade.Domain.Entities;
@@ -43,6 +44,25 @@ namespace demys_universidade.Test.Fakers
         {
             return new EnderecoRequest()
             {
+                CEP = faker.Address.ZipCode("#####-###"),
+                Cidade = faker.Address.City(),
+                Estado = faker.Address.Country(),
+                Rua = faker.Address.StreetName(),
+            };
+        }
+
+        public static async Task<Endereco> EnderecoTask()
+        {
+            return new Endereco()
+            {
+                #region BaseEntity
+                Id = faker.Random.Int(1, 10),
+                Ativo = true,
+                UsuarioInclusao = faker.Random.Int(1, 10),
+                DataInclusao = DateTime.Now,
+                UsuarioAlteracao = faker.Random.Int(1, 10),
+                DataAlteracao = DateTime.Now,
+                #endregion
                 CEP = faker.Address.ZipCode("#####-###"),
                 Cidade = faker.Address.City(),
                 Estado = faker.Address.Country(),

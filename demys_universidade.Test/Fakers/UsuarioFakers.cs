@@ -27,7 +27,6 @@ namespace demys_universidade.Test.Fakers
                 UsuarioAlteracao = faker.Random.Int(1, 10),
                 DataAlteracao = DateTime.Now,
                 #endregion
-                Endereco = EnderecoFakers.EnderecoFaker(),
                 EnderecoId = faker.Random.Int(1, 10),
                 Nome = faker.Person.FirstName.ToString(),
                 Senha = faker.Internet.Password(),
@@ -36,8 +35,6 @@ namespace demys_universidade.Test.Fakers
                 DataInicio = faker.Person.DateOfBirth.ToLocalTime(),
                 CursoId = faker.Random.Int(1, 10),
                 PerfilId = faker.Random.Int(1, 10),
-                Curso = CursoFakers.CursoFaker(),
-                Perfil = PerfilFakers.PerfilFaker(),
             };
         }
 
@@ -53,7 +50,6 @@ namespace demys_universidade.Test.Fakers
                 UsuarioAlteracao = faker.Random.Int(1, 10),
                 DataAlteracao = DateTime.Now,
                 #endregion
-                Endereco = EnderecoFakers.EnderecoFaker(),
                 EnderecoId = faker.Random.Int(1, 10),
                 Nome = faker.Person.FirstName.ToString(),
                 Senha = faker.Internet.Password(),
@@ -62,8 +58,29 @@ namespace demys_universidade.Test.Fakers
                 DataInicio = faker.Person.DateOfBirth.ToLocalTime(),
                 CursoId = faker.Random.Int(1, 10),
                 PerfilId = faker.Random.Int(1, 10),
-                Curso = CursoFakers.CursoFaker(),
-                Perfil = PerfilFakers.PerfilFaker(),
+            };
+        }
+
+        public static async Task<Usuario> UsuarioFakerTask()
+        {
+            return new Usuario()
+            {
+                #region BaseEntity
+                Id = faker.Random.Int(1, 10),
+                Ativo = true,
+                UsuarioInclusao = faker.Random.Int(1, 10),
+                DataInclusao = DateTime.Now,
+                UsuarioAlteracao = faker.Random.Int(1, 10),
+                DataAlteracao = DateTime.Now,
+                #endregion
+                EnderecoId = faker.Random.Int(1, 10),
+                Nome = faker.Person.FirstName.ToString(),
+                Senha = faker.Internet.Password(),
+                CPF = faker.Person.Cpf(),
+                DataNascimento = faker.Person.DateOfBirth.ToLocalTime(),
+                DataInicio = faker.Person.DateOfBirth.ToLocalTime(),
+                CursoId = faker.Random.Int(1, 10),
+                PerfilId = faker.Random.Int(1, 10),
             };
         }
 

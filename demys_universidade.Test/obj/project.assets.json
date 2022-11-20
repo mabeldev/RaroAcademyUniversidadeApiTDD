@@ -2388,6 +2388,19 @@
           }
         }
       },
+      "Moq.EntityFrameworkCore/6.0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Moq": "4.18.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.EntityFrameworkCore.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -8027,6 +8040,19 @@
         "moq.png"
       ]
     },
+    "Moq.EntityFrameworkCore/6.0.1.4": {
+      "sha512": "AU2ksid0n2VPmG+qKSUXs4ZoZNbZXdLs/mkuGQ7JBAefzYNF/6qMJlJwDTF2iW2C0guiaLqtNzjPiAAJKvSJlQ==",
+      "type": "package",
+      "path": "moq.entityframeworkcore/6.0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Moq.EntityFrameworkCore.dll",
+        "moq.entityframeworkcore.6.0.1.4.nupkg.sha512",
+        "moq.entityframeworkcore.nuspec"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -12756,9 +12782,11 @@
     "net6.0": [
       "AutoFixture >= 4.17.0",
       "AutoMapper >= 12.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Bogus >= 34.0.2",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "Moq >= 4.18.2",
+      "Moq.EntityFrameworkCore >= 6.0.1.4",
       "coverlet.collector >= 3.1.2",
       "demys_universidade >= 1.0.0",
       "demys_universidade.Domain >= 1.0.0",
@@ -12824,6 +12852,10 @@
             "target": "Package",
             "version": "[12.0.0, )"
           },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
           "Bogus": {
             "target": "Package",
             "version": "[34.0.2, )"
@@ -12835,6 +12867,10 @@
           "Moq": {
             "target": "Package",
             "version": "[4.18.2, )"
+          },
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.1.4, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

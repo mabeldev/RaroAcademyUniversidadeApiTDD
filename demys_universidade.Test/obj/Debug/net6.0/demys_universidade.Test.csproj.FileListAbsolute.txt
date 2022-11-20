@@ -383,3 +383,4 @@ C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_univers
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\obj\Debug\net6.0\demys_universidade.Test.genruntimeconfig.cache
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\obj\Debug\net6.0\ref\demys_universidade.Test.dll
 C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\bin\Debug\net6.0\Bogus.dll
+C:\Users\Mabel\Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\bin\Debug\net6.0\Moq.EntityFrameworkCore.dll

@@ -10,9 +10,11 @@
         "dependencies": {
           "AutoFixture": "4.17.0",
           "AutoMapper": "12.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "Bogus": "34.0.2",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "Moq": "4.18.2",
+          "Moq.EntityFrameworkCore": "6.0.1.4",
           "coverlet.collector": "3.1.2",
           "demys_universidade": "1.0.0",
           "demys_universidade.Domain": "1.0.0",
@@ -1759,6 +1761,18 @@
           "lib/net6.0/Moq.dll": {
             "assemblyVersion": "4.18.0.0",
             "fileVersion": "4.18.2.0"
+          }
+        }
+      },
+      "Moq.EntityFrameworkCore/6.0.1.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.11",
+          "Moq": "4.18.2"
+        },
+        "runtime": {
+          "lib/net6.0/Moq.EntityFrameworkCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.2.0"
           }
         }
       },
@@ -3725,6 +3739,13 @@
       "sha512": "sha512-SjxKYS5nX6prcaT8ZjbkONh3vnh0Rxru09+gQ1a07v4TM530Oe/jq3Q4dOZPfo1wq0LYmTgLOZKrqRfEx4auPw==",
       "path": "moq/4.18.2",
       "hashPath": "moq.4.18.2.nupkg.sha512"
+    },
+    "Moq.EntityFrameworkCore/6.0.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AU2ksid0n2VPmG+qKSUXs4ZoZNbZXdLs/mkuGQ7JBAefzYNF/6qMJlJwDTF2iW2C0guiaLqtNzjPiAAJKvSJlQ==",
+      "path": "moq.entityframeworkcore/6.0.1.4",
+      "hashPath": "moq.entityframeworkcore.6.0.1.4.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

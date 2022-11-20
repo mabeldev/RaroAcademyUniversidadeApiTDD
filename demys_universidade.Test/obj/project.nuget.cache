@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CfnXyYLzUK/MysdWZ8I4/g0pyGiNn/l4qUH4fkhzzlJvbuQ7DKO6lQYhMsN9vU8GPiuf6zP8xupSbkDlPGXOog==",
+  "dgSpecHash": "jy7x593dw8KFEkkIf+c3XSj9mDaQLlo4qUPytW9ZoegcqXikJ3bDrrL8aORRl/rUpNNvSrFae+BesdzRGIEDSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mabel\\Desktop\\RaroAcademy\\Projetos\\demys_tdd-universidade\\demys_universidade.Test\\demys_universidade.Test.csproj",
   "expectedPackageFiles": [
@@ -102,6 +102,7 @@
     "C:\\Users\\Mabel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Mabel\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Mabel\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
+    "C:\\Users\\Mabel\\.nuget\\packages\\moq.entityframeworkcore\\6.0.1.4\\moq.entityframeworkcore.6.0.1.4.nupkg.sha512",
     "C:\\Users\\Mabel\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Mabel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Mabel\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",

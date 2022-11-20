@@ -35,7 +35,7 @@ namespace demys_universidade.Test.Sources.API.Filters
         {
             var exceptionContext = new ExceptionContext(_actionContext, _filterMetadata)
             {
-                Exception = new InformacaoException(Domain.Enums.StatusException.NaoEncontrado, "Nenhum dado encontrado.")
+                Exception = new InformacaoException(demys_universidade.Domain.Enums.StatusException.NaoEncontrado, "Nenhum dado encontrado.")
             };
 
             var exceptionFilter = new ExceptionFilter();
