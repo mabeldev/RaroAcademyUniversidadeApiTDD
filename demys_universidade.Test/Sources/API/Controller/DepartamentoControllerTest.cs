@@ -8,6 +8,7 @@ using demys_universidade.Test.Configs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Linq.Expressions;
 
 namespace demys_universidade.Test.Sources.API.Controller
 {
@@ -40,7 +41,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.Equal(departamentoResponse.Id, entity.Id);
         }
 
-        [Fact(DisplayName = "Busca tods departamentos")]
+        [Fact(DisplayName = "Busca todos departamentos")]
         public async Task Get()
         {
             var entities = _fixture.Create<List<Departamento>>();
@@ -54,6 +55,23 @@ namespace demys_universidade.Test.Sources.API.Controller
             var objectResult = Assert.IsType<OkObjectResult>(response.Result);
             var empresasResponse = Assert.IsType<List<DepartamentoResponse>>(objectResult.Value);
             Assert.True(empresasResponse.Count() > 0);
+        }
+
+        [Fact(DisplayName = "Busca por Nome")]
+        public async Task GetByNome()
+        {
+            var entity = _fixture.Create<Departamento>();
+            var entityTask = _fixture.Create<Task<Departamento>>();
+
+            _mockDepartamentoService.Setup(mock => mock.ObterAsync(It.IsAny<Expression<Func<Departamento, bool>>>())).Returns(entityTask);
+
+            var controller = new DepartamentoController(_mapper, _mockDepartamentoService.Object);
+
+            var response = await controller.GetAsync(entity.Nome);
+
+            var objectResult = Assert.IsType<OkObjectResult>(response.Result);
+            var usuarioResponse = Assert.IsType<List<DepartamentoResponse>>(objectResult.Value);
+            Assert.NotNull(response);
         }
 
         [Fact(DisplayName = "Cadastra um novo departamento")]
