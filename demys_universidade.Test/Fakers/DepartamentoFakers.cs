@@ -45,5 +45,12 @@ namespace demys_universidade.Test.Fakers
                 Nome = faker.Name.JobTitle(),
             };
         }
+        public static DepartamentoNomeRequest DepartamentoNomeRequestFaker()
+        {
+            return new DepartamentoNomeRequest()
+            {
+                Nome = faker.Name.JobTitle(),
+            };
+        }
     };
 }

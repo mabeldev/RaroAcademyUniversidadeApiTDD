@@ -49,5 +49,12 @@ namespace demys_universidade.Test.Fakers
               Turno= faker.Person.FirstName.ToString(),
             };
         }
+        public static CursoNomeRequest CursoNomeRequestFaker()
+        {
+            return new CursoNomeRequest()
+            {
+                Nome = faker.Person.FirstName.ToString(),
+            };
+        }
     };
 }

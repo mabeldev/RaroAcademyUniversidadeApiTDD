@@ -75,7 +75,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.True(usuarioResponse.Count() > 0);
         }
 
-        [Fact(DisplayName = "Cadastra uma novo usuário")]
+        [Fact(DisplayName = "Cadastra um novo usuário")]
         public async Task Post()
         {
             var request = UsuarioFakers.UsuarioRequestFaker();
@@ -90,7 +90,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.Equal(StatusCodes.Status201Created, objectResult.StatusCode);
         }
 
-        [Fact(DisplayName = "Atualiza uma usuário existente")]
+        [Fact(DisplayName = "Atualiza uma data de usuário existente")]
         public async Task AlterarData()
         {
             var id = _fixture.Create<int>();

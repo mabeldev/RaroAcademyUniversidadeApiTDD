@@ -59,6 +59,23 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.NotNull(response);
         }
 
+        [Fact(DisplayName = "Atualiza um nome de curso existente")]
+        public async Task AlterarNomeCurso()
+        {
+            var id = _fixture.Create<int>();
+            var request = CursoFakers.CursoNomeRequestFaker();
+            var nomeRequest = _fixture.Create<string>();
+
+            _mockCursoService.Setup(mock => mock.AtualizarNomeAsync(id, nomeRequest)).Returns(Task.CompletedTask);
+
+            var controller = new CursoController(_mapper, _mockCursoService.Object);
+
+            var response = await controller.PatchAsync(id, request);
+
+            var objectResult = Assert.IsType<OkResult>(response);
+            Assert.Equal(StatusCodes.Status200OK, objectResult.StatusCode);
+        }
+
         [Fact(DisplayName = "Busca todos cursos")]
         public async Task Get()
         {
@@ -94,7 +111,7 @@ namespace demys_universidade.Test.Sources.API.Controller
         public async Task Put()
         {
             var id = _fixture.Create<int>();
-            var request = Fakers.CursoFakers.CursoRequestFaker();
+            var request = CursoFakers.CursoRequestFaker();
 
             _mockCursoService.Setup(mock => mock.AlterarAsync(It.IsAny<Curso>())).Returns(Task.CompletedTask);
 

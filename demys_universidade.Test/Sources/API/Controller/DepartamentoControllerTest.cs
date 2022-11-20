@@ -5,6 +5,7 @@ using demys_universidade.Domain.Contracts.Response;
 using demys_universidade.Domain.Entities;
 using demys_universidade.Domain.Interfaces.Services;
 using demys_universidade.Test.Configs;
+using demys_universidade.Test.Fakers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -103,6 +104,23 @@ namespace demys_universidade.Test.Sources.API.Controller
 
             var objectResult = Assert.IsType<NoContentResult>(response);
             Assert.Equal(StatusCodes.Status204NoContent, objectResult.StatusCode);
+        }
+
+        [Fact(DisplayName = "Atualiza um nome de departamento existente")]
+        public async Task AlterarNomeDpartamento()
+        {
+            var id = _fixture.Create<int>();
+            var request = DepartamentoFakers.DepartamentoNomeRequestFaker();
+            var nomeRequest = _fixture.Create<string>();
+
+            _mockDepartamentoService.Setup(mock => mock.AtualizarNomeAsync(id, nomeRequest)).Returns(Task.CompletedTask);
+
+            var controller = new DepartamentoController(_mapper, _mockDepartamentoService.Object);
+
+            var response = await controller.PatchAsync(id, request);
+
+            var objectResult = Assert.IsType<OkResult>(response);
+            Assert.Equal(StatusCodes.Status200OK, objectResult.StatusCode);
         }
 
         [Fact(DisplayName = "Remove um departamento existente")]

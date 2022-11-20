@@ -54,7 +54,7 @@ namespace demys_universidade.Controllers
         #region Alterar Nome
         [HttpPatch("{id}")]
         [ProducesResponseType(200)]
-        public async Task<ActionResult> PatchAsync([FromRoute] int id, [FromBody] DepartamentoNomeRequest request)
+        public async Task<ActionResult> PatchAsync([FromRoute] int id, [FromBody] CursoNomeRequest request)
         {
             await _cursoService.AtualizarNomeAsync(id, request.Nome);
             return Ok();
