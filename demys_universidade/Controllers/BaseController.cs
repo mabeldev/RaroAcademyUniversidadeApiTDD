@@ -2,9 +2,7 @@
 using demys_universidade.Domain.Contracts.Response;
 using demys_universidade.Domain.Entities;
 using demys_universidade.Domain.Interfaces.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
 
 
 namespace demys_universidade.Controllers

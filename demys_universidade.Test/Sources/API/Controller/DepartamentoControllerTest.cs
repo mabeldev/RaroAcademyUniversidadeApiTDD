@@ -40,7 +40,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.Equal(departamentoResponse.Id, entity.Id);
         }
 
-        [Fact(DisplayName = "Busca todas empresas")]
+        [Fact(DisplayName = "Busca tods departamentos")]
         public async Task Get()
         {
             var entities = _fixture.Create<List<Departamento>>();
@@ -56,7 +56,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.True(empresasResponse.Count() > 0);
         }
 
-        [Fact(DisplayName = "Cadastra uma nova empresa")]
+        [Fact(DisplayName = "Cadastra um novo departamento")]
         public async Task Post()
         {
             var request = Fakers.DepartamentoFakers.DepartamentoRequestFaker();
@@ -71,7 +71,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.Equal(StatusCodes.Status201Created, objectResult.StatusCode);
         }
 
-        [Fact(DisplayName = "Atualiza uma departamento existente")]
+        [Fact(DisplayName = "Atualiza um departamento existente")]
         public async Task Put()
         {
             var id = _fixture.Create<int>();
@@ -87,7 +87,7 @@ namespace demys_universidade.Test.Sources.API.Controller
             Assert.Equal(StatusCodes.Status204NoContent, objectResult.StatusCode);
         }
 
-        [Fact(DisplayName = "Remove uma departamento existente")]
+        [Fact(DisplayName = "Remove um departamento existente")]
         public async Task Delete()
         {
             var id = _fixture.Create<int>();

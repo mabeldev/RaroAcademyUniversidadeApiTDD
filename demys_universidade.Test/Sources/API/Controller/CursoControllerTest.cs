@@ -5,9 +5,11 @@ using demys_universidade.Domain.Contracts.Response;
 using demys_universidade.Domain.Entities;
 using demys_universidade.Domain.Interfaces.Services;
 using demys_universidade.Test.Configs;
+using demys_universidade.Test.Fakers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Linq.Expressions;
 
 namespace demys_universidade.Test.Sources.API.Controller
 {
@@ -38,6 +40,23 @@ namespace demys_universidade.Test.Sources.API.Controller
             var objectResult = Assert.IsType<OkObjectResult>(response.Result);
             var cursoResponse = Assert.IsType<CursoResponse>(objectResult.Value);
             Assert.Equal(cursoResponse.Id, entity.Id);
+        }
+
+        [Fact(DisplayName = "Busca por Nome")]
+        public async Task GetByRua()
+        {
+            var entity = _fixture.Create<Curso>();
+            var entityTask = _fixture.Create<Task<Curso>>();
+
+            _mockCursoService.Setup(mock => mock.ObterAsync(It.IsAny<Expression<Func<Curso, bool>>>())).Returns(entityTask);
+
+            var controller = new CursoController(_mapper, _mockCursoService.Object);
+
+            var response = await controller.GetAsync(entity.Nome);
+
+            var objectResult = Assert.IsType<OkObjectResult>(response.Result);
+            var usuarioResponse = Assert.IsType<List<CursoResponse>>(objectResult.Value);
+            Assert.NotNull(response);
         }
 
         [Fact(DisplayName = "Busca todos cursos")]

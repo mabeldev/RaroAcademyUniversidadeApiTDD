@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.5819" branch-rate="0.3661" version="1.9" timestamp="1668905535" lines-covered="927" lines-valid="1593" branches-covered="26" branches-valid="71">
+<coverage line-rate="0.5948" branch-rate="0.3661" version="1.9" timestamp="1668908191" lines-covered="963" lines-valid="1619" branches-covered="26" branches-valid="71">
   <sources>
     <source>C:\Users\Mabel\</source>
   </sources>
   <packages>
-    <package name="demys_universidade" line-rate="0.44789999999999996" branch-rate="0.5" complexity="50">
+    <package name="demys_universidade" line-rate="0.4763" branch-rate="0.5" complexity="50">
       <classes>
         <class name="Program" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Program.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
@@ -226,46 +226,46 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="24" branch="False" />
-                <line number="11" hits="24" branch="False" />
-                <line number="14" hits="24" branch="False" />
-                <line number="15" hits="24" branch="False" />
-                <line number="16" hits="24" branch="False" />
-                <line number="17" hits="24" branch="False" />
-                <line number="18" hits="24" branch="False" />
-                <line number="25" hits="24" branch="False" />
-                <line number="26" hits="24" branch="False" />
-                <line number="27" hits="24" branch="False" />
-                <line number="28" hits="24" branch="False" />
-                <line number="29" hits="24" branch="False" />
-                <line number="35" hits="24" branch="False" />
-                <line number="36" hits="24" branch="False" />
-                <line number="37" hits="24" branch="False" />
-                <line number="38" hits="24" branch="False" />
-                <line number="39" hits="48" branch="False" />
-                <line number="43" hits="24" branch="False" />
+                <line number="10" hits="26" branch="False" />
+                <line number="11" hits="26" branch="False" />
+                <line number="14" hits="26" branch="False" />
+                <line number="15" hits="26" branch="False" />
+                <line number="16" hits="26" branch="False" />
+                <line number="17" hits="26" branch="False" />
+                <line number="18" hits="26" branch="False" />
+                <line number="25" hits="26" branch="False" />
+                <line number="26" hits="26" branch="False" />
+                <line number="27" hits="26" branch="False" />
+                <line number="28" hits="26" branch="False" />
+                <line number="29" hits="26" branch="False" />
+                <line number="35" hits="26" branch="False" />
+                <line number="36" hits="26" branch="False" />
+                <line number="37" hits="26" branch="False" />
+                <line number="38" hits="26" branch="False" />
+                <line number="39" hits="52" branch="False" />
+                <line number="43" hits="26" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="24" branch="False" />
-            <line number="11" hits="24" branch="False" />
-            <line number="14" hits="24" branch="False" />
-            <line number="15" hits="24" branch="False" />
-            <line number="16" hits="24" branch="False" />
-            <line number="17" hits="24" branch="False" />
-            <line number="18" hits="24" branch="False" />
-            <line number="25" hits="24" branch="False" />
-            <line number="26" hits="24" branch="False" />
-            <line number="27" hits="24" branch="False" />
-            <line number="28" hits="24" branch="False" />
-            <line number="29" hits="24" branch="False" />
-            <line number="35" hits="24" branch="False" />
-            <line number="36" hits="24" branch="False" />
-            <line number="37" hits="24" branch="False" />
-            <line number="38" hits="24" branch="False" />
-            <line number="39" hits="48" branch="False" />
-            <line number="43" hits="24" branch="False" />
+            <line number="10" hits="26" branch="False" />
+            <line number="11" hits="26" branch="False" />
+            <line number="14" hits="26" branch="False" />
+            <line number="15" hits="26" branch="False" />
+            <line number="16" hits="26" branch="False" />
+            <line number="17" hits="26" branch="False" />
+            <line number="18" hits="26" branch="False" />
+            <line number="25" hits="26" branch="False" />
+            <line number="26" hits="26" branch="False" />
+            <line number="27" hits="26" branch="False" />
+            <line number="28" hits="26" branch="False" />
+            <line number="29" hits="26" branch="False" />
+            <line number="35" hits="26" branch="False" />
+            <line number="36" hits="26" branch="False" />
+            <line number="37" hits="26" branch="False" />
+            <line number="38" hits="26" branch="False" />
+            <line number="39" hits="52" branch="False" />
+            <line number="43" hits="26" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Handlers.AuthorizationHandler" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Handlers\AuthorizationHandler.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -558,20 +558,20 @@
           <methods>
             <method name=".ctor" signature="(AutoMapper.IMapper,demys_universidade.Domain.Interfaces.Services.IBaseService`1&lt;TEntity&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="21" branch="False" />
-                <line number="25" hits="21" branch="False" />
-                <line number="26" hits="21" branch="False" />
-                <line number="27" hits="21" branch="False" />
-                <line number="28" hits="21" branch="False" />
+                <line number="24" hits="23" branch="False" />
+                <line number="25" hits="23" branch="False" />
+                <line number="26" hits="23" branch="False" />
+                <line number="27" hits="23" branch="False" />
+                <line number="28" hits="23" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="24" hits="21" branch="False" />
-            <line number="25" hits="21" branch="False" />
-            <line number="26" hits="21" branch="False" />
-            <line number="27" hits="21" branch="False" />
-            <line number="28" hits="21" branch="False" />
+            <line number="24" hits="23" branch="False" />
+            <line number="25" hits="23" branch="False" />
+            <line number="26" hits="23" branch="False" />
+            <line number="27" hits="23" branch="False" />
+            <line number="28" hits="23" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.BaseController`3/&lt;DeleteAsync&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\BaseController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -738,40 +738,40 @@
           <methods>
             <method name=".ctor" signature="(AutoMapper.IMapper,demys_universidade.Domain.Interfaces.Services.ICursoService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="5" branch="False" />
-                <line number="22" hits="5" branch="False" />
-                <line number="23" hits="5" branch="False" />
-                <line number="24" hits="5" branch="False" />
-                <line number="25" hits="5" branch="False" />
+                <line number="21" hits="6" branch="False" />
+                <line number="22" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="24" hits="6" branch="False" />
+                <line number="25" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="21" hits="5" branch="False" />
-            <line number="22" hits="5" branch="False" />
-            <line number="23" hits="5" branch="False" />
-            <line number="24" hits="5" branch="False" />
-            <line number="25" hits="5" branch="False" />
+            <line number="21" hits="6" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Controllers.CursoController/&lt;GetAsync&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\CursoController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Controllers.CursoController/&lt;GetAsync&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\CursoController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
-                <line number="49" hits="0" branch="False" />
-                <line number="50" hits="0" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
-            <line number="48" hits="0" branch="False" />
-            <line number="49" hits="0" branch="False" />
-            <line number="50" hits="0" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.CursoController/&lt;PatchAsync&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\CursoController.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -934,20 +934,20 @@
           <methods>
             <method name=".ctor" signature="(AutoMapper.IMapper,demys_universidade.Domain.Interfaces.Services.IUsuarioService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="6" branch="False" />
-                <line number="22" hits="6" branch="False" />
-                <line number="23" hits="6" branch="False" />
-                <line number="24" hits="6" branch="False" />
-                <line number="25" hits="6" branch="False" />
+                <line number="21" hits="7" branch="False" />
+                <line number="22" hits="7" branch="False" />
+                <line number="23" hits="7" branch="False" />
+                <line number="24" hits="7" branch="False" />
+                <line number="25" hits="7" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="21" hits="6" branch="False" />
-            <line number="22" hits="6" branch="False" />
-            <line number="23" hits="6" branch="False" />
-            <line number="24" hits="6" branch="False" />
-            <line number="25" hits="6" branch="False" />
+            <line number="21" hits="7" branch="False" />
+            <line number="22" hits="7" branch="False" />
+            <line number="23" hits="7" branch="False" />
+            <line number="24" hits="7" branch="False" />
+            <line number="25" hits="7" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.UsuarioController/&lt;GetAsync&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\UsuarioController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -988,22 +988,22 @@
             <line number="48" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Controllers.UsuarioController/&lt;PatchAsync&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\UsuarioController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Controllers.UsuarioController/&lt;PatchAsync&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\UsuarioController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="0" branch="False" />
-                <line number="69" hits="0" branch="False" />
-                <line number="70" hits="0" branch="False" />
-                <line number="71" hits="0" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="68" hits="0" branch="False" />
-            <line number="69" hits="0" branch="False" />
-            <line number="70" hits="0" branch="False" />
-            <line number="71" hits="0" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Controllers.UsuarioController/&lt;PostAsync&gt;d__3" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade\Controllers\UsuarioController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -1050,7 +1050,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Domain" line-rate="0.6043" branch-rate="0.4571" complexity="146">
+    <package name="demys_universidade.Domain" line-rate="0.608" branch-rate="0.4571" complexity="146">
       <classes>
         <class name="demys_universidade.Domain.Utils.ClaimUtil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Utils\ClaimUtil.cs" line-rate="1" branch-rate="0.875" complexity="8">
           <methods>
@@ -1826,54 +1826,54 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="485" branch="False" />
+                <line number="16" hits="509" branch="False" />
               </lines>
             </method>
             <method name="get_Ativo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="886" branch="False" />
+                <line number="17" hits="934" branch="False" />
               </lines>
             </method>
             <method name="get_UsuarioInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="451" branch="False" />
+                <line number="18" hits="475" branch="False" />
               </lines>
             </method>
             <method name="get_DataInclusao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="457" branch="False" />
+                <line number="19" hits="481" branch="False" />
               </lines>
             </method>
             <method name="get_UsuarioAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="455" branch="False" />
+                <line number="21" hits="479" branch="False" />
               </lines>
             </method>
             <method name="get_DataAlteracao" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="455" branch="False" />
+                <line number="22" hits="479" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="434" branch="False" />
-                <line number="12" hits="434" branch="False" />
-                <line number="13" hits="434" branch="False" />
-                <line number="14" hits="434" branch="False" />
+                <line number="11" hits="458" branch="False" />
+                <line number="12" hits="458" branch="False" />
+                <line number="13" hits="458" branch="False" />
+                <line number="14" hits="458" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="16" hits="485" branch="False" />
-            <line number="17" hits="886" branch="False" />
-            <line number="18" hits="451" branch="False" />
-            <line number="19" hits="457" branch="False" />
-            <line number="21" hits="455" branch="False" />
-            <line number="22" hits="455" branch="False" />
-            <line number="11" hits="434" branch="False" />
-            <line number="12" hits="434" branch="False" />
-            <line number="13" hits="434" branch="False" />
-            <line number="14" hits="434" branch="False" />
+            <line number="16" hits="509" branch="False" />
+            <line number="17" hits="934" branch="False" />
+            <line number="18" hits="475" branch="False" />
+            <line number="19" hits="481" branch="False" />
+            <line number="21" hits="479" branch="False" />
+            <line number="22" hits="479" branch="False" />
+            <line number="11" hits="458" branch="False" />
+            <line number="12" hits="458" branch="False" />
+            <line number="13" hits="458" branch="False" />
+            <line number="14" hits="458" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.BrasilCep" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\BrasilCep.cs" line-rate="1" branch-rate="1" complexity="6">
@@ -1922,97 +1922,97 @@
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="74" branch="False" />
+                <line number="11" hits="77" branch="False" />
               </lines>
             </method>
             <method name="get_Turno" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="74" branch="False" />
+                <line number="12" hits="76" branch="False" />
               </lines>
             </method>
             <method name="get_DepartamentoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="74" branch="False" />
+                <line number="15" hits="76" branch="False" />
               </lines>
             </method>
             <method name="get_Departamento" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="68" branch="False" />
+                <line number="20" hits="70" branch="False" />
               </lines>
             </method>
             <method name="get_Usuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="23" branch="False" />
+                <line number="21" hits="25" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="74" branch="False" />
-            <line number="12" hits="74" branch="False" />
-            <line number="15" hits="74" branch="False" />
-            <line number="20" hits="68" branch="False" />
-            <line number="21" hits="23" branch="False" />
+            <line number="11" hits="77" branch="False" />
+            <line number="12" hits="76" branch="False" />
+            <line number="15" hits="76" branch="False" />
+            <line number="20" hits="70" branch="False" />
+            <line number="21" hits="25" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Departamento" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Departamento.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="78" branch="False" />
+                <line number="11" hits="80" branch="False" />
               </lines>
             </method>
             <method name="get_EnderecoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="72" branch="False" />
+                <line number="14" hits="74" branch="False" />
               </lines>
             </method>
             <method name="get_Endereco" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="78" branch="False" />
+                <line number="18" hits="80" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="78" branch="False" />
-            <line number="14" hits="72" branch="False" />
-            <line number="18" hits="78" branch="False" />
+            <line number="11" hits="80" branch="False" />
+            <line number="14" hits="74" branch="False" />
+            <line number="18" hits="80" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Endereco" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Endereco.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_CEP" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="163" branch="False" />
+                <line number="5" hits="171" branch="False" />
               </lines>
             </method>
             <method name="get_Rua" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="164" branch="False" />
+                <line number="6" hits="172" branch="False" />
               </lines>
             </method>
             <method name="get_Cidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="163" branch="False" />
+                <line number="7" hits="171" branch="False" />
               </lines>
             </method>
             <method name="get_Estado" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="163" branch="False" />
+                <line number="8" hits="171" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="163" branch="False" />
-            <line number="6" hits="164" branch="False" />
-            <line number="7" hits="163" branch="False" />
-            <line number="8" hits="163" branch="False" />
+            <line number="5" hits="171" branch="False" />
+            <line number="6" hits="172" branch="False" />
+            <line number="7" hits="171" branch="False" />
+            <line number="8" hits="171" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Entities.Perfil" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Entities\Perfil.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="69" branch="False" />
+                <line number="11" hits="75" branch="False" />
               </lines>
             </method>
             <method name="get_Usuarios" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -2022,7 +2022,7 @@
             </method>
           </methods>
           <lines>
-            <line number="11" hits="69" branch="False" />
+            <line number="11" hits="75" branch="False" />
             <line number="12" hits="30" branch="False" />
           </lines>
         </class>
@@ -2030,42 +2030,42 @@
           <methods>
             <method name="get_Nome" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="88" branch="False" />
+                <line number="5" hits="94" branch="False" />
               </lines>
             </method>
             <method name="get_Senha" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="78" branch="False" />
+                <line number="6" hits="84" branch="False" />
               </lines>
             </method>
             <method name="get_CPF" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="87" branch="False" />
+                <line number="7" hits="93" branch="False" />
               </lines>
             </method>
             <method name="get_DataNascimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="82" branch="False" />
+                <line number="8" hits="88" branch="False" />
               </lines>
             </method>
             <method name="get_DataInicio" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="76" branch="False" />
+                <line number="9" hits="82" branch="False" />
               </lines>
             </method>
             <method name="get_CursoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="82" branch="False" />
+                <line number="12" hits="88" branch="False" />
               </lines>
             </method>
             <method name="get_EnderecoId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="76" branch="False" />
+                <line number="13" hits="82" branch="False" />
               </lines>
             </method>
             <method name="get_PerfilId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="78" branch="False" />
+                <line number="14" hits="84" branch="False" />
               </lines>
             </method>
             <method name="get_Curso" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -2075,27 +2075,27 @@
             </method>
             <method name="get_Endereco" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="82" branch="False" />
+                <line number="20" hits="88" branch="False" />
               </lines>
             </method>
             <method name="get_Perfil" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="52" branch="False" />
+                <line number="21" hits="58" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="88" branch="False" />
-            <line number="6" hits="78" branch="False" />
-            <line number="7" hits="87" branch="False" />
-            <line number="8" hits="82" branch="False" />
-            <line number="9" hits="76" branch="False" />
-            <line number="12" hits="82" branch="False" />
-            <line number="13" hits="76" branch="False" />
-            <line number="14" hits="78" branch="False" />
+            <line number="5" hits="94" branch="False" />
+            <line number="6" hits="84" branch="False" />
+            <line number="7" hits="93" branch="False" />
+            <line number="8" hits="88" branch="False" />
+            <line number="9" hits="82" branch="False" />
+            <line number="12" hits="88" branch="False" />
+            <line number="13" hits="82" branch="False" />
+            <line number="14" hits="84" branch="False" />
             <line number="19" hits="64" branch="False" />
-            <line number="20" hits="82" branch="False" />
-            <line number="21" hits="52" branch="False" />
+            <line number="20" hits="88" branch="False" />
+            <line number="21" hits="58" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Response.AutenticacaoResponse" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Response\AutenticacaoResponse.cs" line-rate="1" branch-rate="1" complexity="2">
@@ -2440,16 +2440,16 @@
             <line number="11" hits="4" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Domain.Contracts.Request.UsuarioDataNascimentoRequest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\UsuarioDataNascimentoRequest.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Domain.Contracts.Request.UsuarioDataNascimentoRequest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\UsuarioDataNascimentoRequest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="get_DataNascimento" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_DataNascimento" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="False" />
+                <line number="9" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Domain.Contracts.Request.UsuarioRequest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Domain\Contracts\Request\UsuarioRequest.cs" line-rate="1" branch-rate="1" complexity="7">
@@ -3284,7 +3284,7 @@
         </class>
       </classes>
     </package>
-    <package name="demys_universidade.Test" line-rate="0.701" branch-rate="1" complexity="99">
+    <package name="demys_universidade.Test" line-rate="0.71" branch-rate="1" complexity="102">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -4294,158 +4294,188 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="5" branch="False" />
-                <line number="21" hits="5" branch="False" />
-                <line number="22" hits="5" branch="False" />
-                <line number="23" hits="5" branch="False" />
-                <line number="24" hits="5" branch="False" />
-                <line number="25" hits="5" branch="False" />
+                <line number="22" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="24" hits="6" branch="False" />
+                <line number="25" hits="6" branch="False" />
+                <line number="26" hits="6" branch="False" />
+                <line number="27" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="20" hits="5" branch="False" />
-            <line number="21" hits="5" branch="False" />
-            <line number="22" hits="5" branch="False" />
-            <line number="23" hits="5" branch="False" />
-            <line number="24" hits="5" branch="False" />
-            <line number="25" hits="5" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="26" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Delete&gt;d__8" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Delete&gt;d__9" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="92" hits="1" branch="False" />
-                <line number="93" hits="1" branch="False" />
-                <line number="95" hits="1" branch="False" />
-                <line number="97" hits="1" branch="False" />
-                <line number="99" hits="1" branch="False" />
-                <line number="101" hits="1" branch="False" />
-                <line number="102" hits="1" branch="False" />
-                <line number="103" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="92" hits="1" branch="False" />
-            <line number="93" hits="1" branch="False" />
-            <line number="95" hits="1" branch="False" />
-            <line number="97" hits="1" branch="False" />
-            <line number="99" hits="1" branch="False" />
-            <line number="101" hits="1" branch="False" />
-            <line number="102" hits="1" branch="False" />
-            <line number="103" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Get&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Get&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="45" hits="1" branch="False" />
-                <line number="46" hits="1" branch="False" />
-                <line number="48" hits="1" branch="False" />
-                <line number="50" hits="1" branch="False" />
-                <line number="52" hits="1" branch="False" />
-                <line number="54" hits="1" branch="False" />
-                <line number="55" hits="1" branch="False" />
-                <line number="56" hits="1" branch="False" />
-                <line number="57" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="45" hits="1" branch="False" />
-            <line number="46" hits="1" branch="False" />
-            <line number="48" hits="1" branch="False" />
-            <line number="50" hits="1" branch="False" />
-            <line number="52" hits="1" branch="False" />
-            <line number="54" hits="1" branch="False" />
-            <line number="55" hits="1" branch="False" />
-            <line number="56" hits="1" branch="False" />
-            <line number="57" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;GetById&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="1" branch="False" />
-                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
                 <line number="32" hits="1" branch="False" />
                 <line number="34" hits="1" branch="False" />
                 <line number="36" hits="1" branch="False" />
                 <line number="38" hits="1" branch="False" />
-                <line number="39" hits="1" branch="False" />
                 <line number="40" hits="1" branch="False" />
                 <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="29" hits="1" branch="False" />
-            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
             <line number="34" hits="1" branch="False" />
             <line number="36" hits="1" branch="False" />
             <line number="38" hits="1" branch="False" />
-            <line number="39" hits="1" branch="False" />
             <line number="40" hits="1" branch="False" />
             <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Post&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;GetByRua&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="61" hits="1" branch="False" />
-                <line number="62" hits="1" branch="False" />
-                <line number="64" hits="1" branch="False" />
-                <line number="66" hits="1" branch="False" />
-                <line number="68" hits="1" branch="False" />
-                <line number="70" hits="1" branch="False" />
-                <line number="71" hits="1" branch="False" />
-                <line number="72" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="61" hits="1" branch="False" />
-            <line number="62" hits="1" branch="False" />
-            <line number="64" hits="1" branch="False" />
-            <line number="66" hits="1" branch="False" />
-            <line number="68" hits="1" branch="False" />
-            <line number="70" hits="1" branch="False" />
-            <line number="71" hits="1" branch="False" />
-            <line number="72" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Put&gt;d__7" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Post&gt;d__7" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="76" hits="1" branch="False" />
-                <line number="77" hits="1" branch="False" />
-                <line number="78" hits="1" branch="False" />
                 <line number="80" hits="1" branch="False" />
-                <line number="82" hits="1" branch="False" />
-                <line number="84" hits="1" branch="False" />
-                <line number="86" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
                 <line number="87" hits="1" branch="False" />
-                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="76" hits="1" branch="False" />
-            <line number="77" hits="1" branch="False" />
-            <line number="78" hits="1" branch="False" />
             <line number="80" hits="1" branch="False" />
-            <line number="82" hits="1" branch="False" />
-            <line number="84" hits="1" branch="False" />
-            <line number="86" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
             <line number="87" hits="1" branch="False" />
-            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.CursoControllerTest/&lt;Put&gt;d__8" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\CursoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Sources.API.Controller.DepartamentoControllerTest" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\DepartamentoControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -4768,166 +4798,29 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="23" hits="6" branch="False" />
-                <line number="24" hits="6" branch="False" />
-                <line number="25" hits="6" branch="False" />
-                <line number="26" hits="6" branch="False" />
-                <line number="27" hits="6" branch="False" />
-                <line number="28" hits="6" branch="False" />
+                <line number="22" hits="7" branch="False" />
+                <line number="23" hits="7" branch="False" />
+                <line number="24" hits="7" branch="False" />
+                <line number="25" hits="7" branch="False" />
+                <line number="26" hits="7" branch="False" />
+                <line number="27" hits="7" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="23" hits="6" branch="False" />
-            <line number="24" hits="6" branch="False" />
-            <line number="25" hits="6" branch="False" />
-            <line number="26" hits="6" branch="False" />
-            <line number="27" hits="6" branch="False" />
-            <line number="28" hits="6" branch="False" />
+            <line number="22" hits="7" branch="False" />
+            <line number="23" hits="7" branch="False" />
+            <line number="24" hits="7" branch="False" />
+            <line number="25" hits="7" branch="False" />
+            <line number="26" hits="7" branch="False" />
+            <line number="27" hits="7" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Delete&gt;d__9" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;AlterarData&gt;d__8" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="112" hits="1" branch="False" />
-                <line number="113" hits="1" branch="False" />
-                <line number="115" hits="1" branch="False" />
-                <line number="117" hits="1" branch="False" />
-                <line number="119" hits="1" branch="False" />
-                <line number="121" hits="1" branch="False" />
-                <line number="122" hits="1" branch="False" />
-                <line number="123" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="112" hits="1" branch="False" />
-            <line number="113" hits="1" branch="False" />
-            <line number="115" hits="1" branch="False" />
-            <line number="117" hits="1" branch="False" />
-            <line number="119" hits="1" branch="False" />
-            <line number="121" hits="1" branch="False" />
-            <line number="122" hits="1" branch="False" />
-            <line number="123" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Get&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="65" hits="1" branch="False" />
-                <line number="66" hits="1" branch="False" />
-                <line number="68" hits="1" branch="False" />
-                <line number="70" hits="1" branch="False" />
-                <line number="72" hits="1" branch="False" />
-                <line number="74" hits="1" branch="False" />
-                <line number="75" hits="1" branch="False" />
-                <line number="76" hits="1" branch="False" />
-                <line number="77" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="65" hits="1" branch="False" />
-            <line number="66" hits="1" branch="False" />
-            <line number="68" hits="1" branch="False" />
-            <line number="70" hits="1" branch="False" />
-            <line number="72" hits="1" branch="False" />
-            <line number="74" hits="1" branch="False" />
-            <line number="75" hits="1" branch="False" />
-            <line number="76" hits="1" branch="False" />
-            <line number="77" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;GetById&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="32" hits="1" branch="False" />
-                <line number="33" hits="1" branch="False" />
-                <line number="35" hits="1" branch="False" />
-                <line number="37" hits="1" branch="False" />
-                <line number="39" hits="1" branch="False" />
-                <line number="41" hits="1" branch="False" />
-                <line number="42" hits="1" branch="False" />
-                <line number="43" hits="1" branch="False" />
-                <line number="44" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="32" hits="1" branch="False" />
-            <line number="33" hits="1" branch="False" />
-            <line number="35" hits="1" branch="False" />
-            <line number="37" hits="1" branch="False" />
-            <line number="39" hits="1" branch="False" />
-            <line number="41" hits="1" branch="False" />
-            <line number="42" hits="1" branch="False" />
-            <line number="43" hits="1" branch="False" />
-            <line number="44" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;GetByRua&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="48" hits="1" branch="False" />
-                <line number="49" hits="1" branch="False" />
-                <line number="50" hits="1" branch="False" />
-                <line number="52" hits="1" branch="False" />
-                <line number="54" hits="1" branch="False" />
-                <line number="56" hits="1" branch="False" />
-                <line number="58" hits="1" branch="False" />
-                <line number="59" hits="1" branch="False" />
-                <line number="60" hits="1" branch="False" />
-                <line number="61" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="48" hits="1" branch="False" />
-            <line number="49" hits="1" branch="False" />
-            <line number="50" hits="1" branch="False" />
-            <line number="52" hits="1" branch="False" />
-            <line number="54" hits="1" branch="False" />
-            <line number="56" hits="1" branch="False" />
-            <line number="58" hits="1" branch="False" />
-            <line number="59" hits="1" branch="False" />
-            <line number="60" hits="1" branch="False" />
-            <line number="61" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Post&gt;d__7" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="81" hits="1" branch="False" />
-                <line number="82" hits="1" branch="False" />
-                <line number="84" hits="1" branch="False" />
-                <line number="86" hits="1" branch="False" />
-                <line number="88" hits="1" branch="False" />
-                <line number="90" hits="1" branch="False" />
-                <line number="91" hits="1" branch="False" />
-                <line number="92" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="81" hits="1" branch="False" />
-            <line number="82" hits="1" branch="False" />
-            <line number="84" hits="1" branch="False" />
-            <line number="86" hits="1" branch="False" />
-            <line number="88" hits="1" branch="False" />
-            <line number="90" hits="1" branch="False" />
-            <line number="91" hits="1" branch="False" />
-            <line number="92" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Put&gt;d__8" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
+                <line number="95" hits="1" branch="False" />
                 <line number="96" hits="1" branch="False" />
                 <line number="97" hits="1" branch="False" />
                 <line number="98" hits="1" branch="False" />
@@ -4941,6 +4834,7 @@
             </method>
           </methods>
           <lines>
+            <line number="95" hits="1" branch="False" />
             <line number="96" hits="1" branch="False" />
             <line number="97" hits="1" branch="False" />
             <line number="98" hits="1" branch="False" />
@@ -4950,6 +4844,172 @@
             <line number="106" hits="1" branch="False" />
             <line number="107" hits="1" branch="False" />
             <line number="108" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Delete&gt;d__10" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Get&gt;d__6" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;GetById&gt;d__4" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;GetByRua&gt;d__5" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Post&gt;d__7" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="demys_universidade.Test.Sources.API.Controller.UsuarioControllerTest/&lt;Put&gt;d__9" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Sources\API\Controller\UsuarioControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Fakers.ApiCepFakers" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Fakers\ApiCepFakers.cs" line-rate="0" branch-rate="1" complexity="2">
@@ -5420,7 +5480,7 @@
             <line number="16" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="demys_universidade.Test.Fakers.UsuarioFakers" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Fakers\UsuarioFakers.cs" line-rate="0.26" branch-rate="1" complexity="5">
+        <class name="demys_universidade.Test.Fakers.UsuarioFakers" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Fakers\UsuarioFakers.cs" line-rate="0.3392" branch-rate="1" complexity="6">
           <methods>
             <method name="GetId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5487,6 +5547,16 @@
                 <line number="129" hits="2" branch="False" />
               </lines>
             </method>
+            <method name="UsuarioDataRequestFaker" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+              </lines>
+            </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="11" hits="1" branch="False" />
@@ -5543,6 +5613,12 @@
             <line number="127" hits="2" branch="False" />
             <line number="128" hits="2" branch="False" />
             <line number="129" hits="2" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
             <line number="11" hits="1" branch="False" />
           </lines>
         </class>
@@ -5794,46 +5870,46 @@
           <methods>
             <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="49" branch="False" />
-                <line number="9" hits="49" branch="False" />
-                <line number="10" hits="49" branch="False" />
-                <line number="11" hits="49" branch="False" />
-                <line number="12" hits="49" branch="False" />
-                <line number="13" hits="49" branch="False" />
+                <line number="8" hits="51" branch="False" />
+                <line number="9" hits="51" branch="False" />
+                <line number="10" hits="51" branch="False" />
+                <line number="11" hits="51" branch="False" />
+                <line number="12" hits="51" branch="False" />
+                <line number="13" hits="51" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="49" branch="False" />
-            <line number="9" hits="49" branch="False" />
-            <line number="10" hits="49" branch="False" />
-            <line number="11" hits="49" branch="False" />
-            <line number="12" hits="49" branch="False" />
-            <line number="13" hits="49" branch="False" />
+            <line number="8" hits="51" branch="False" />
+            <line number="9" hits="51" branch="False" />
+            <line number="10" hits="51" branch="False" />
+            <line number="11" hits="51" branch="False" />
+            <line number="12" hits="51" branch="False" />
+            <line number="13" hits="51" branch="False" />
           </lines>
         </class>
         <class name="demys_universidade.Test.Configs.MapConfig" filename="Desktop\RaroAcademy\Projetos\demys_tdd-universidade\demys_universidade.Test\Configs\MapConfig.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="24" branch="False" />
-                <line number="9" hits="24" branch="False" />
-                <line number="10" hits="24" branch="False" />
-                <line number="11" hits="24" branch="False" />
-                <line number="12" hits="48" branch="False" />
-                <line number="14" hits="24" branch="False" />
-                <line number="15" hits="24" branch="False" />
+                <line number="8" hits="26" branch="False" />
+                <line number="9" hits="26" branch="False" />
+                <line number="10" hits="26" branch="False" />
+                <line number="11" hits="26" branch="False" />
+                <line number="12" hits="52" branch="False" />
+                <line number="14" hits="26" branch="False" />
+                <line number="15" hits="26" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="24" branch="False" />
-            <line number="9" hits="24" branch="False" />
-            <line number="10" hits="24" branch="False" />
-            <line number="11" hits="24" branch="False" />
-            <line number="12" hits="48" branch="False" />
-            <line number="14" hits="24" branch="False" />
-            <line number="15" hits="24" branch="False" />
+            <line number="8" hits="26" branch="False" />
+            <line number="9" hits="26" branch="False" />
+            <line number="10" hits="26" branch="False" />
+            <line number="11" hits="26" branch="False" />
+            <line number="12" hits="52" branch="False" />
+            <line number="14" hits="26" branch="False" />
+            <line number="15" hits="26" branch="False" />
           </lines>
         </class>
       </classes>

@@ -127,5 +127,12 @@ namespace demys_universidade.Test.Fakers
                 Endereco = EnderecoFakers.EnderecoRequestFaker(),
             };
         }
+        public static UsuarioDataNascimentoRequest UsuarioDataRequestFaker()
+        {
+            return new UsuarioDataNascimentoRequest()
+            {
+                DataNascimento = faker.Person.DateOfBirth.ToLocalTime(),
+            };
+        }
     }
 }

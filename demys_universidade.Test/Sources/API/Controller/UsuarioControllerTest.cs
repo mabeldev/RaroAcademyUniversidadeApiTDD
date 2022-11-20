@@ -9,7 +9,6 @@ using demys_universidade.Test.Fakers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System.Collections.Generic;
 using System.Linq.Expressions;
 
 namespace demys_universidade.Test.Sources.API.Controller
@@ -92,10 +91,27 @@ namespace demys_universidade.Test.Sources.API.Controller
         }
 
         [Fact(DisplayName = "Atualiza uma usuário existente")]
+        public async Task AlterarData()
+        {
+            var id = _fixture.Create<int>();
+            var request = UsuarioFakers.UsuarioDataRequestFaker();
+            var dataRequest = _fixture.Create<DateTime>();
+
+            _mockUsuarioService.Setup(mock => mock.AtualizarDataNascimentoAsync(id, dataRequest)).Returns(Task.CompletedTask);
+
+            var controller = new UsuarioController(_mapper, _mockUsuarioService.Object);
+
+            var response = await controller.PatchAsync(id, request);
+
+            var objectResult = Assert.IsType<OkResult>(response);
+            Assert.Equal(StatusCodes.Status200OK, objectResult.StatusCode);
+        }
+
+        [Fact(DisplayName = "Atualiza uma usuário existente")]
         public async Task Put()
         {
             var id = _fixture.Create<int>();
-            var request = Fakers.UsuarioFakers.UsuarioRequestFaker();
+            var request = UsuarioFakers.UsuarioRequestFaker();
 
             _mockUsuarioService.Setup(mock => mock.AlterarAsync(It.IsAny<Usuario>())).Returns(Task.CompletedTask);
 
